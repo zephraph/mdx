@@ -5,6 +5,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
     'gatsby-plugin-catch-links',
+    'gatsby-plugin-theme-ui',
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
@@ -28,12 +29,6 @@ module.exports = {
       resolve: 'gatsby-plugin-page-creator',
       options: {
         path: path.join(__dirname, 'src/pages')
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-compile-es6-packages',
-      options: {
-        modules: ['gatsby-theme-mdx']
       }
     }
   ]
